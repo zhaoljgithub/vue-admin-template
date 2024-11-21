@@ -1,0 +1,71 @@
+/*
+  主题色，蓝（a）红（b）绿（c）橙（d）四套
+ */
+$theme-a-base: #1890ff;
+$theme-a-click: #1890ff;
+$theme-a-hover: #38c4ff;
+$theme-a-10: rgba(20, 123, 209, 0.1);
+$theme-a-5: rgba(20, 123, 209, 0.05);
+
+//$theme-a-base: #FE5248;
+//$theme-a-click: #F5222D;
+//$theme-a-hover: #F5222D;
+//$theme-a-5:#fff6f6;
+
+$theme-b-base: rgb(254, 82, 72);
+$theme-b-click: rgb(245, 34, 45);
+$theme-b-hover: rgb(254, 134, 127);
+$theme-b-5: rgb(255, 246, 246);
+
+$theme-c-base: rgb(82, 196, 26);
+$theme-c-click: rgb(26, 151, 3);
+$theme-c-hover: rgb(134, 214, 94);
+$theme-c-10: rgba(109, 196, 31, 0.1);
+$theme-c-5: rgb(246, 252, 243);
+$theme-d-base: rgb(255, 153, 0);
+$theme-d-click: rgb(255, 92, 0);
+$theme-d-hover: rgb(255, 183, 76);
+$theme-d-5: rgb(255, 250, 242);
+
+/*
+   部分功能色
+  */
+$warning: rgb(237, 163, 15);
+$warning-10: rgba(237, 163, 15, 0.1);
+
+$success: rgb(109, 196, 31);
+$success-10: rgba(109, 196, 31, 0.1);
+
+$danger: rgb(209, 20, 41);
+$danger-10: rgba(209, 20, 41, 0.1);
+
+$info: #147bd1;
+$info-10: rgba(20, 123, 209, 0.1);
+
+/*
+   字体颜色
+  */
+$font-title: rgba(0, 0, 0, 0.85); //标题
+$font-emphasize: rgba(0, 0, 0, 0.85); //强调
+$font-text: rgba(0, 0, 0, 0.65); //正文
+$font-minor: rgba(0, 0, 0, 0.45); //次要
+$font-less: rgba(0, 0, 0, 0.25); //极弱
+$font-thead: rgba(249, 251, 251, 1); //列头
+$font-disabled: rgba(0, 0, 0, 0.04); //失效，禁用
+
+/*
+   其他
+  */
+$border: rgb(217, 217, 217); //边框
+$divide: rgb(230, 230, 230); //分割线
+$divide-weak: rgba(0, 0, 0, 0.09); //分割线
+$background: rgba(0, 0, 0, 0.02); //背景
+
+$menuBackgroud: rgb(25, 25, 25); //菜单背景色
+$menuFontColor: rgb(220, 220, 220); // 菜单字体颜色
+
+:export {
+  menuBackgroud: $menuBackgroud;
+  menuActivedBg: $theme-a-base;
+  menuFontColor: $menuFontColor;
+}
